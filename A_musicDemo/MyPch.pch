@@ -1,0 +1,26 @@
+//
+//  MyPch.pch
+//  A_musicDemo
+//
+//  Created by MengQingFei on 16/5/26.
+//  Copyright © 2016年 MengQingFei. All rights reserved.
+//
+
+#ifndef MyPch_pch
+#define MyPch_pch
+#define K_MUSIC_URL @"http://project.lanou3g.com/teacher/UIAPI/MusicInfoList.plist"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//工具类
+#import "GetDataTool.h"
+//第三方
+#import "UIImageView+WebCache.h"
+#import "Singleton.h"
+#import "MusicPlayTool.h"
+/*
+ 预编译文件
+ 引用的时候,不用再导入头文件了.
+ */
+
+#endif /* MyPch_pch */
